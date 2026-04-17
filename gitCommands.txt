@@ -25,3 +25,5 @@ Working Directory ---->Staging Area ----> Local Repository ----> Remote Reposito
 git fetch -> Remote Repository to Local Repository
 
 git pull -> Remote repository to working directory
+
+<new>
