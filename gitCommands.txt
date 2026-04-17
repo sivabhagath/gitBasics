@@ -28,7 +28,18 @@ git fetch -> Remote Repository to Local Repository
 
 git pull -> Remote repository to working directory
 
-updated from dev branch
+###Scenario : update in dev branch and then merge to main branch
+git branch
+git branch dev
+git checkout dev
+git branch
+update file
+add and commit
+git push to dev
+git branch main
+git pull
+git merge dev
+git push
 
 
 
