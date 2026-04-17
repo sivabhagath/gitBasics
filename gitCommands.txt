@@ -2,6 +2,8 @@ git
 
 git -> to see git installed , go to cmd and run "git"
 
+git clone <clone repo
+>
 git add . -> add file changes in repository for staging
 
 git add <file name>  ->adds one or more files to staging
@@ -18,7 +20,7 @@ git checkout/switch <branch name> -> switches to different branch
 
 git revert/reset -> <command>
 
-git push ->
+git push -> push changes to centralized repo
 
 Working Directory ---->Staging Area ----> Local Repository ----> Remote Repository
 
@@ -26,6 +28,6 @@ git fetch -> Remote Repository to Local Repository
 
 git pull -> Remote repository to working directory
 
-<new>
 
-<new2.
+
+
