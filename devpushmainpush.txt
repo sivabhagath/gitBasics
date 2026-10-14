@@ -1,0 +1,59 @@
+Do code changes all the times in dev branch and 
+$ git checkout -b dev
+
+$ git branch
+* dev
+  main
+
+$ git status
+
+$ git status
+On branch dev
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (dev)
+$ git add .
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (dev)
+$ git status
+On branch dev
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.html
+
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (dev)
+$ git commit -m "dev commit"
+[dev b69662d] dev commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (dev)
+
+$ git push -u origin dev
+
+$ git checkout main
+
+$ git pull origin main
+From https://github.com/sivabhagath/SchoolWeb
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (main)
+$ git merge dev
+Updating 3c17e87..b69662d
+Fast-forward
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (main)
+$ git push origin main
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/sivabhagath/SchoolWeb.git
+   3c17e87..b69662d  main -> main
+
+Tishya@LAPTOP-R0OQ8HO0 MINGW64 ~/Desktop/gitSchool (main)
